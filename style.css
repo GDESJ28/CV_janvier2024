@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+.bg-perso {
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))   ,url("images/fond-CV.jpg");
+
+}
+

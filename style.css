@@ -9,3 +9,16 @@ h1 {
 
 }
 
+.bg-perso-mobile {
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))   ,url("images/fond-noir.jpeg");
+
+}
+
+.bg-fd {
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))   ,url("images/fond-noir.jpeg");
+
+}

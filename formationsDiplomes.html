@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style2.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -59,17 +60,17 @@
 
 
 
-    <main>
+    <section class="bg-fd py-3 px-3 " >
       <!-- <div class="wrapper">
             <div class="title">Vertical Timeline</div>
           </div> -->
 
-      <h1 class="title" >Mes formations et diplômes</h1>
-      <div class="container">
+      <h1 class="display-5 fw-semibold text-white" >Mes formations et diplômes</h1>
+      <div class="container py-3">
         <div class="job">
-          <h2>Formation Java Full Stack <span>10/2023-12/2023</span></h2>
+          <h2 class="display-6 text-white fw-semibold ">Formation Java Full Stack </h2>
           <p class="soc">M2i Formation</p>
-          <p>POEC de 57 jours</p>
+          <p>POEC de 57 jours -10/2023 au 12/2023</p>
           <div class="detail">
             <p><span class="underline">Technologies étudiées :</span></p>
 
@@ -88,50 +89,72 @@
         </div>
 
         <div class="job">
-          <h2>Autoformation Python/HTML et CSS <span>2020-2022</span></h2>
-          <p class="soc">Site Udemy.com</p>
+          <h2 class="display-6 text-white fw-semibold ">Autoformation Python/HTML et CSS </h2>
+          <p class="soc">Site Udemy.com - 2020-2022</p>
         </div>
 
         <div class="job">
-          <h2>Oracle Forms developer <span>2002</span></h2>
-          <p>Formation de 5 jours pour salarié</p>
+          <h2 class="display-6 text-white fw-semibold ">Oracle Forms developer </h2>
+          <p>Formation de 5 jours pour salarié - 10/2023-12/2023</p>
           <p>Chez Oracle France ( Nanterre 92)</p>
           <p></p>
         </div>
         <div class="job">
-          <h2>Objets procéduraux d’Oracle <span>2001</span></h2>
-          <p>Formation de 3 jours pour salarié</p>
+          <h2 class="display-6 text-white fw-semibold ">Objets procéduraux d’Oracle </h2>
+          <p>Formation de 3 jours pour salarié - 2001</p>
           <p>Chez Oracle France ( Nanterre 92)</p>
           <p></p>
         </div>
         <div class="job">
-          <h2>Langages SQL, PL/SQL, outils SQL*PLUS <span>2000</span></h2>
-          <p>Formation de 5 jours pour salarié</p>
+          <h2 class="display-6 text-white fw-semibold ">Langages SQL, PL/SQL, outils SQL*PLUS </h2>
+          <p>Formation de 5 jours pour salarié - 2002</p>
           <p>Chez Oracle France ( Nanterre 92)</p>
           <p></p>
         </div>
         <div class="job">
-          <h2>Utilisation Unix et programmation Shell <span>2000</span></h2>
-          <p>Formation de 5 jours pour salarié</p>
+          <h2 class="display-6 text-white fw-semibold ">Utilisation Unix et programmation Shell </h2>
+          <p>Formation de 5 jours pour salarié - 2000</p>
           <p>Chez Homecom ( Paris)</p>
         </div>
         <div class="job">
-          <h2>Niveau Licence Chimie <span>1996</span></h2>
-          <p>Université Pierre et Marie Curie (Paris)</p>
+          <h2 class="display-6 text-white fw-semibold ">Niveau Licence Chimie </h2>
+          <p>Université Pierre et Marie Curie (Paris) - 1996</p>
 
         </div>
         <div class="job">
-          <h2>DEUG A- sciences et structure de la matière <span>1994</span></h2>
-          <p>Institut Galilée - Université Paris Nord 13 </p>
+          <h2 class="display-6 text-white fw-semibold ">DEUG A- sciences et structure de la matière </h2>
+          <p>Institut Galilée - Université Paris Nord 13 - 1994 </p>
         </div>
         <div class="job">
-          <h2>Bac D (sciences) <span>1991</span></h2>
-          <p>Lycée Jacques Feyder - Epinay-sur-Seine</p>
+          <h2 class="display-6 text-white fw-semibold ">Bac D (sciences) </h2>
+          <p>Lycée Jacques Feyder - Epinay-sur-Seine - 1991</p>
         </div>
       </div>
-    </main>
+    </section>
 
-    <footer></footer>
+    <footer class ="bg-primary pb-1 pt-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8  ">
+            <!--<img class="img-fluid" src = "images/GD_footer.jpeg" alt="logo_GD"/>-->
+
+        </div>
+
+        <div class ="col-md-4  text-center">
+          <p class="text-black fw-bold">Retrouvez-moi sur 
+            <a href="https://www.linkedin.com/in/gdesj" target="_blank">
+            <button type="button" class="btn btn-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"></path>
+              </svg>
+            </button>
+          </a>
+          </div>
+
+          
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

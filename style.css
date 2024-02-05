@@ -1,24 +1,48 @@
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .bg-perso {
-    background-size: cover;
-    background-position: center center;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))   ,url("images/fond-CV.jpg");
-
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("images/fond-CV.jpg");
 }
 
 .bg-perso-mobile {
-    background-size: cover;
-    background-position: center center;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))   ,url("images/fond-noir.jpeg");
-
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("images/fond-noir.jpeg");
 }
 
 .bg-fd {
-    background-size: cover;
-    background-position: center center;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))   ,url("images/fond-noir.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("images/fond-noir.jpeg");
+}
 
+.container {
+  overflow: hidden;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.job {
+  background: rgb(193, 195, 197);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  position: relative;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.size {
+  height: 50px;
+  width: 50px;
 }

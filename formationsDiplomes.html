@@ -1,149 +1,181 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Formations et Diplomes</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <title>Formations et Diplomes</title>
-</head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+          <div class="container">
+            <img src="images/GD.jpeg" class="img-fluid" alt="logo_GD" />
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Qui suis-je?</a>
+                </li>
 
-<body>
-
-  <div class="container">
-    <header>
-      <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-        <div class="container">
-          <img src="images/GD.jpeg" class="img-fluid" alt="logo_GD" />
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="index.html">Qui suis-je?</a></li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="competences.html">Compétences</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="parcours.html">Parcours Pro</a>
-              </li>
-
-            </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="competences.html">Compétences</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="parcours.html">Parcours Pro</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
 
-
-
-
-
-    <section class="bg-fd py-3 px-3 ">
-      <!-- <div class="wrapper">
+      <section class="bg-fd py-3 px-3">
+        <!-- <div class="wrapper">
             <div class="title">Vertical Timeline</div>
           </div> -->
 
-      <h1 class="display-5 fw-semibold text-white">Mes formations et diplômes</h1>
-      <div class="container py-3">
-        <div class="job">
-          <h2 class="display-6 text-white fw-semibold ">Formation Java Full Stack </h2>
-          <p class="soc">M2i Formation</p>
-          <p>POEC de 57 jours -10/2023 au 12/2023</p>
-          <div class="detail">
-            <p><span class="underline">Technologies étudiées :</span></p>
+        <h1 class="display-5 fw-semibold text-white">
+          Mes formations et diplômes
+        </h1>
+        <div class="container py-3">
+          <div class="job">
+            <h2 class="display-6 text-white fw-semibold">
+              Formation Java Full Stack
+            </h2>
+            <p class="soc">M2i Formation</p>
+            <p>POEC de 57 jours -10/2023 au 12/2023</p>
+            <div class="detail">
+              <p><span class="underline">Technologies étudiées :</span></p>
 
-            <ul>
-              <li>
-                HTML5, CSS3, JavaScript ( et typeScript),framework Angular pour
-                le Frontend
-              </li>
-              <li>
-                Java,Jakarta EE,JSF, frameworks Spring,Hibernate et JPA pour le
-                Backend
-              </li>
-              <li>PostgreSQL pour la partie Base de données</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="job">
-          <h2 class="display-6 text-white fw-semibold ">Autoformation Python/HTML et CSS </h2>
-          <p class="soc">Site Udemy.com - 2020-2022</p>
-        </div>
-
-        <div class="job">
-          <h2 class="display-6 text-white fw-semibold ">Oracle Forms developer </h2>
-          <p>Formation de 5 jours pour salarié - 10/2023-12/2023</p>
-          <p>Chez Oracle France ( Nanterre 92)</p>
-          <p></p>
-        </div>
-        <div class="job">
-          <h2 class="display-6 text-white fw-semibold ">Objets procéduraux d’Oracle </h2>
-          <p>Formation de 3 jours pour salarié - 2001</p>
-          <p>Chez Oracle France ( Nanterre 92)</p>
-          <p></p>
-        </div>
-        <div class="job">
-          <h2 class="display-6 text-white fw-semibold ">Langages SQL, PL/SQL, outils SQL*PLUS </h2>
-          <p>Formation de 5 jours pour salarié - 2002</p>
-          <p>Chez Oracle France ( Nanterre 92)</p>
-          <p></p>
-        </div>
-        <div class="job">
-          <h2 class="display-6 text-white fw-semibold ">Utilisation Unix et programmation Shell </h2>
-          <p>Formation de 5 jours pour salarié - 2000</p>
-          <p>Chez Homecom ( Paris)</p>
-        </div>
-        <div class="job">
-          <h2 class="display-6 text-white fw-semibold ">Niveau Licence Chimie </h2>
-          <p>Université Pierre et Marie Curie (Paris) - 1996</p>
-
-        </div>
-        <div class="job">
-          <h2 class="display-6 text-white fw-semibold ">DEUG A- sciences et structure de la matière </h2>
-          <p>Institut Galilée - Université Paris Nord 13 - 1994 </p>
-        </div>
-        <div class="job">
-          <h2 class="display-6 text-white fw-semibold ">Bac D (sciences) </h2>
-          <p>Lycée Jacques Feyder - Epinay-sur-Seine - 1991</p>
-        </div>
-      </div>
-    </section>
-
-    <footer class="bg-primary pb-1 pt-1">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8  ">
-            <!--<img class="img-fluid" src = "images/GD_footer.jpeg" alt="logo_GD"/>-->
-
+              <ul>
+                <li>
+                  HTML5, CSS3, JavaScript ( et typeScript),framework Angular
+                  pour le Frontend
+                </li>
+                <li>
+                  Java,Jakarta EE,JSF, frameworks Spring,Hibernate et JPA pour
+                  le Backend
+                </li>
+                <li>PostgreSQL pour la partie Base de données</li>
+              </ul>
+            </div>
           </div>
 
-          <div class="col-md-4  text-center">
-            <p class="text-black fw-bold">Retrouvez-moi sur
-              <a href="https://www.linkedin.com/in/gdesj" target="_blank">
-                <button type="button" class="btn btn-secondary">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                    class="bi bi-linkedin" viewBox="0 0 16 16">
-                    <path
-                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z">
-                    </path>
-                  </svg>
-                </button>
-              </a>
+          <div class="job">
+            <h2 class="display-6 text-white fw-semibold">
+              Autoformation Python/HTML et CSS
+            </h2>
+            <p class="soc">Site Udemy.com - 2020-2022</p>
           </div>
 
-
+          <div class="job">
+            <h2 class="display-6 text-white fw-semibold">
+              Oracle Forms developer
+            </h2>
+            <p>Formation de 5 jours pour salarié - 10/2023-12/2023</p>
+            <p>Chez Oracle France ( Nanterre 92)</p>
+            <p></p>
+          </div>
+          <div class="job">
+            <h2 class="display-6 text-white fw-semibold">
+              Objets procéduraux d’Oracle
+            </h2>
+            <p>Formation de 3 jours pour salarié - 2001</p>
+            <p>Chez Oracle France ( Nanterre 92)</p>
+            <p></p>
+          </div>
+          <div class="job">
+            <h2 class="display-6 text-white fw-semibold">
+              Langages SQL, PL/SQL, outils SQL*PLUS
+            </h2>
+            <p>Formation de 5 jours pour salarié - 2002</p>
+            <p>Chez Oracle France ( Nanterre 92)</p>
+            <p></p>
+          </div>
+          <div class="job">
+            <h2 class="display-6 text-white fw-semibold">
+              Utilisation Unix et programmation Shell
+            </h2>
+            <p>Formation de 5 jours pour salarié - 2000</p>
+            <p>Chez Homecom ( Paris)</p>
+          </div>
+          <div class="job">
+            <h2 class="display-6 text-white fw-semibold">
+              Niveau Licence Chimie
+            </h2>
+            <p>Université Pierre et Marie Curie (Paris) - 1996</p>
+          </div>
+          <div class="job">
+            <h2 class="display-6 text-white fw-semibold">
+              DEUG A- sciences et structure de la matière
+            </h2>
+            <p>Institut Galilée - Université Paris Nord 13 - 1994</p>
+          </div>
+          <div class="job">
+            <h2 class="display-6 text-white fw-semibold">Bac D (sciences)</h2>
+            <p>Lycée Jacques Feyder - Epinay-sur-Seine - 1991</p>
+          </div>
         </div>
-      </div>
-    </footer>
+      </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      <footer class="bg-primary pb-1 pt-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <!--<img class="img-fluid" src = "images/GD_footer.jpeg" alt="logo_GD"/>-->
+            </div>
+
+            <div class="col-md-4 text-center">
+              <p class="text-black fw-bold">
+                Retrouvez-moi sur
+                <a href="https://www.linkedin.com/in/gdesj" target="_blank">
+                  <button type="button" class="btn btn-secondary">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-linkedin"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                      ></path>
+                    </svg>
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"></script>
-</body>
-
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -52,3 +52,18 @@ h1 {
 .style-police {
   font-style: italic;
 }
+
+.navbar {
+    background-image: radial-gradient(circle, #000080, #87ceeb);
+}
+.subtitle {
+  color:rgb(13, 45, 172);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration:underline;
+}
+.bgPerso {
+  background-image: radial-gradient(circle, #000080, #87ceeb);
+}
+.periode {
+  color: red;
+}

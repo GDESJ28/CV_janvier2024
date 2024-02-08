@@ -1,4 +1,4 @@
-h1 {
+h1, h2{
   text-align: center;
 }
 
@@ -28,6 +28,8 @@ h1 {
   padding: 20px;
   width: 100%;
   box-sizing: border-box;
+  
+  
 }
 
 .job {
@@ -71,8 +73,13 @@ h1 {
 
 #diaporama {
   width: 60%;
-  height: 60%;
+  
   margin: auto;
   border: solid 5px #1f74ac;
   border-radius: 5px;
+}
+
+.specsize {
+  height: 800px;
+
 }

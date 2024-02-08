@@ -1,5 +1,9 @@
 h1, h2{
   text-align: center;
+ 
+}
+h3{
+  text-align:start;
 }
 
 .bg-perso {
@@ -82,4 +86,26 @@ h1, h2{
 .specsize {
   height: 800px;
 
+}
+
+.portugais {
+  background-image: linear-gradient(to right, green, red); /* Dégradé de rouge à bleu */
+  -webkit-background-clip: text; /* Spécifie que le dégradé doit remplir le texte */
+  -webkit-text-fill-color: transparent; /* Cache la couleur du texte */
+  background-clip: text; /* Pour les navigateurs non-webkit */
+  color: transparent; /* Cache la couleur du texte */
+  text-transform: uppercase;
+  font-size:large;
+  
+  ;
+}
+
+.anglais{
+  background-image: linear-gradient(to right, blue,red );/* Dégradé de rouge à bleu */
+  -webkit-background-clip: text; /* Spécifie que le dégradé doit remplir le texte */
+  -webkit-text-fill-color: transparent; /* Cache la couleur du texte */
+  background-clip: text; /* Pour les navigateurs non-webkit */
+  color: transparent; /* Cache la couleur du texte */
+  text-transform: uppercase;
+  font-size:large;
 }

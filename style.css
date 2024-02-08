@@ -69,3 +69,10 @@ h1 {
   color: red;
 }
 
+#diaporama {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  border: solid 5px #1f74ac;
+  border-radius: 5px;
+}

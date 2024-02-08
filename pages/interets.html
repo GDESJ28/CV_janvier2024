@@ -68,31 +68,41 @@
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#diaporama" data-bs-slide-to="0" aria-current="true" class="active" aria-label="slide1"></button>
               <button type="button" data-bs-target="#diaporama" data-bs-slide-to="1"  aria-label="slide2"></button>
+              <button type="button" data-bs-target="#diaporama" data-bs-slide-to="2"  aria-label="slide3"></button>
             </div>
 
             <div class ="carousel-inner" >
               <div class="carousel-item active" data-bs-interval="2000">
                 <img src="../images/guitare.jpg" alt="image qui représente une de mes passions la guitare" class="d-block w-100"/>
                 <!-- <div class ="carousel-caption d-none d-md-block">--><!--so ne veut afficher la légende que pour les écran de type medium et plus , pas pour smartphone par exemple-->
-                <div class ="carousel-caption">
-                  <h6>La guitare une de mes passions</h6>
+                <div class ="carousel-caption text-white fw-bold">
+                  <h6>La guitare</h6>
                   <p></p>
                 </div> 
               </div>
               <div class="carousel-item " data-bs-interval="2000" >
                 <img src="../images/genealogie.jpg" alt="image qui représente une de mes passions la généalogie" class="d-block w-100"/>
-                <div class ="carousel-caption text-dark">
-                  <h6>La généalogie en est une autre</h6>
-                  <p class="d-none d-md-block">rechercher dans les archives , retrouver un ancêtres , connaitre un peu sa vie</p>
+                <div class ="carousel-caption text-dark fw-bold">
+                  <h6>La généalogie</h6>
+                  <p class="d-none d-md-block"></p>
+                </div> 
+              </div>
+              <div class="carousel-item " data-bs-interval="2000" >
+                <img src="../images/livres.jpg" alt="image qui représente des romans" class="d-block w-100"/>
+                <div class ="carousel-caption text-white fw-bold">
+                  <h6>La lecture </h6>
+                  <p class="d-none d-md-block"></p>
                 </div> 
               </div>
             </div>
 
             <button class="carousel-control-prev" type="button" data-bs-target="#diaporama" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#diaporama" data-bs-slide="next">
-              <span class="carousel-control-next-icon"></span>
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
             </button>
 
 
@@ -107,46 +117,7 @@
 
       <footer class="bgPerso pb-1 pt-1">
         <div class="container">
-          <div class="row row-cols-12 justify-content-center">
-            <nav
-              class="navbar navbar-expand-lg bg-primary"
-              data-bs-theme="dark"
-            >
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div
-                class="collapse navbar-collapse justify-content-end"
-                id="navbarNav"
-              >
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Qui suis-je?</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="formationsDiplomes.html"
-                      >Formations et diplômes</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="competences.html">Compétences</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="parcours.html">Parcours Pro</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-
+          
           
         </div>
       </footer>

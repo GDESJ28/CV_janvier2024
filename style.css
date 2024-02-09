@@ -42,7 +42,7 @@ h3{
 
 .job {
   /* background: rgb(193, 195, 197); */
-  background-image: radial-gradient(circle, #000080, #87ceeb);
+  background-image: radial-gradient(circle, #003e80, #87ceeb);
   padding: 20px;
   margin: 20px 0;
   border-radius: 8px;

@@ -28,6 +28,7 @@
               aria-label="Toggle navigation"
             >
               <span class="navbar-toggler-icon"></span>
+              <span class="menu-title">Menu</span>
             </button>
             <div
               class="collapse navbar-collapse justify-content-end"
@@ -54,13 +55,13 @@
           </div>
         </nav>
       </header>
-
-      <section class="bg-fd py-3 px-3">
+      <!--section pour desktop-->
+      <section class="bg-fd py-3 px-3  ">
         <h2 class="display-6 fw-semibold text-white shadow-lg">
           Mes centres d'intérêt
         </h2>
 
-        <div class="container ">
+        <div class="container d-none d-sm-block ">
           <div id="diaporama" class="carousel slide " data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button
@@ -151,6 +152,100 @@
 
 
         </div>
+        <!--smartphone-->
+
+        <div class="container d-block d-sm-none ">
+          <div id="diaporama2" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#diaporama2"
+                data-bs-slide-to="0"
+                aria-current="true"
+                class="active"
+                aria-label="slide1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#diaporama2"
+                data-bs-slide-to="1"
+                aria-label="slide2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#diaporama2"
+                data-bs-slide-to="2"
+                aria-label="slide3"
+              ></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img
+                  src="../images/guitare.jpg"
+                  alt="image qui représente une de mes passions la guitare"
+                  class="d-block w-100"
+                />
+                <!-- <div class ="carousel-caption d-none d-md-block">--><!--so ne veut afficher la légende que pour les écran de type medium et plus , pas pour smartphone par exemple-->
+                <div class="carousel-caption text-white fw-bold">
+                  <h6>La guitare</h6>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="../images/genealogie.jpg"
+                  alt="image qui représente une de mes passions la généalogie"
+                  class="d-block w-100"
+                />
+                <div class="carousel-caption text-dark fw-bold">
+                  <h6>La généalogie</h6>
+                  <p class="d-none d-md-block"></p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="../images/livres.jpg"
+                  alt="image qui représente des romans"
+                  class="d-block w-100"
+                />
+                <div class="carousel-caption text-white fw-bold">
+                  <h6>La lecture</h6>
+                  <p class="d-none d-md-block"></p>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#diaporama2"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#diaporama2"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+        </div>
+
         <div class="container">
           <h2 class="display-6 fw-semibold text-white shadow-lg py-3">Langues</h2>
 

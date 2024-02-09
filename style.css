@@ -92,6 +92,15 @@ h3{
 
 }
 
+#diaporama2 {
+  width: 100%;
+  
+  margin: auto;
+  border: solid 5px #7057c1;
+  border-radius: 5px;
+}
+
+
 .portugais {
   background-image: linear-gradient(to right, green, red); /* Dégradé de rouge à bleu */
   -webkit-background-clip: text; /* Spécifie que le dégradé doit remplir le texte */

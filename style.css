@@ -135,3 +135,21 @@ h3{
   border-radius: 10%;
   
 }
+.bap{
+  font-weight: bold;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.bap:visited{
+  color: white;
+  
+}
+
+
+
+a:visited{
+  color: white
+  
+}
+

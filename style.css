@@ -123,6 +123,79 @@ h3{
   font-size:large;
 }
 
+.tech{
+  background-image: linear-gradient(to right, rgb(165, 19, 0),rgb(166, 255, 0) );/* Dégradé de rouge à bleu */
+  -webkit-background-clip: text; /* Spécifie que le dégradé doit remplir le texte */
+  -webkit-text-fill-color: transparent; /* Cache la couleur du texte */
+  background-clip: text; /* Pour les navigateurs non-webkit */
+  color: transparent; /* Cache la couleur du texte */
+  text-transform: uppercase;
+  font-size:large;
+
+}
+
+.prog{
+  background-image: linear-gradient(to right, rgb(82, 0, 165),rgb(0, 255, 234) );/* Dégradé de rouge à bleu */
+  -webkit-background-clip: text; /* Spécifie que le dégradé doit remplir le texte */
+  -webkit-text-fill-color: transparent; /* Cache la couleur du texte */
+  background-clip: text; /* Pour les navigateurs non-webkit */
+  color: transparent; /* Cache la couleur du texte */
+  text-transform: uppercase;
+  font-size:large;
+
+}
+
+.dev{
+  background-image: linear-gradient(to right, rgb(0, 165, 69),rgb(255, 60, 0) );/* Dégradé de rouge à bleu */
+  -webkit-background-clip: text; /* Spécifie que le dégradé doit remplir le texte */
+  -webkit-text-fill-color: transparent; /* Cache la couleur du texte */
+  background-clip: text; /* Pour les navigateurs non-webkit */
+  color: transparent; /* Cache la couleur du texte */
+  text-transform: uppercase;
+  font-size:large;
+
+}
+
+
+.diplo {
+
+  background-image: linear-gradient(to right, rgb(17, 56, 210),rgb(255, 60, 0) );/* Dégradé de rouge à bleu */
+  -webkit-background-clip: text; /* Spécifie que le dégradé doit remplir le texte */
+  -webkit-text-fill-color: transparent; /* Cache la couleur du texte */
+  background-clip: text; /* Pour les navigateurs non-webkit */
+  color: transparent; /* Cache la couleur du texte */
+
+}
+
+.comp {
+
+  background-image: linear-gradient(to right, rgb(210, 159, 17),rgb(0, 255, 166) );/* Dégradé de rouge à bleu */
+  -webkit-background-clip: text; /* Spécifie que le dégradé doit remplir le texte */
+  -webkit-text-fill-color: transparent; /* Cache la couleur du texte */
+  background-clip: text; /* Pour les navigateurs non-webkit */
+  color: transparent; /* Cache la couleur du texte */
+
+}
+
+.parcours {
+  background-image: linear-gradient(to right, rgb(210, 17, 17),rgb(183, 0, 255) );/* Dégradé de rouge à bleu */
+  -webkit-background-clip: text; /* Spécifie que le dégradé doit remplir le texte */
+  -webkit-text-fill-color: transparent; /* Cache la couleur du texte */
+  background-clip: text; /* Pour les navigateurs non-webkit */
+  color: transparent; /* Cache la couleur du texte */
+
+
+}
+
+.interet {
+
+  background-image: linear-gradient(to right, rgb(25, 49, 189),rgb(108, 112, 138) );/* Dégradé de rouge à bleu */
+  -webkit-background-clip: text; /* Spécifie que le dégradé doit remplir le texte */
+  -webkit-text-fill-color: transparent; /* Cache la couleur du texte */
+  background-clip: text; /* Pour les navigateurs non-webkit */
+  color: transparent; /* Cache la couleur du texte */
+}
+
 .div-mail{
   width: auto;
   display: flex;

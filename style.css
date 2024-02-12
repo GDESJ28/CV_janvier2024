@@ -157,6 +157,12 @@ a:visited{
   --animate-duration: 3s;
 }
 
-.animate__animated.animate__backInDown{
+
+
+.animate__animated.animate__backInLeft{
+  --animate-duration: 1s;
+}
+
+.animate__animated.animate__backInRight{
   --animate-duration: 1s;
 }

@@ -153,3 +153,10 @@ a:visited{
   
 }
 
+.animate__animated.animate__flash {
+  --animate-duration: 3s;
+}
+
+.animate__animated.animate__backInDown{
+  --animate-duration: 1s;
+}
